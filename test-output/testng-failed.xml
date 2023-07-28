@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
-      <class name="Day07Jun23.TestNgDemo2">
+      <class name="Day21Jun23.AmazonTest">
         <methods>
-          <include name="logout"/>
-          <include name="login"/>
+          <include name="AMTest"/>
         </methods>
-      </class> <!-- Day07Jun23.TestNgDemo2 -->
-      <class name="Day07Jun23.TestNgDemo1">
+      </class> <!-- Day21Jun23.AmazonTest -->
+      <class name="Day21Jun23.GoogleTest">
         <methods>
-          <include name="verifyUrl"/>
+          <include name="GTest"/>
         </methods>
-      </class> <!-- Day07Jun23.TestNgDemo1 -->
-      <class name="Day07Jun23.TestNgDemo4">
-        <methods>
-          <include name="reg"/>
-          <include name="login"/>
-          <include name="logout"/>
-        </methods>
-      </class> <!-- Day07Jun23.TestNgDemo4 -->
+      </class> <!-- Day21Jun23.GoogleTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

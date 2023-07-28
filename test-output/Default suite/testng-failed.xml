@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Day13Jun23.ExcelReadingFileDemo">
+      <class name="Day21Jun23.GoogleTest">
         <methods>
-          <include name="readExcel"/>
+          <include name="GTest"/>
         </methods>
-      </class> <!-- Day13Jun23.ExcelReadingFileDemo -->
+      </class> <!-- Day21Jun23.GoogleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
